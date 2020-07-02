@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Hello JS</title>
+    </head>
+
+    <body>
+        <!-- <p id="greet"></p>
+        <p id="result"></p> -->
+
+        <button type="button" id="mybtn">Click</button>
+        <!-- <button onclick="alert('Hello JS')">Click</button> -->
+        <script>
+
+        var st1="Hello"
+        var st2=" Javascript"
+       // console.log(st1+st2)
+        st1+=st2
+        // document.write(st1)   //Hello Javascript
+        // document.write("<br>")
+        // document.write(st1+st2)   //+ is concatenation
+
+        //Logical Operators: &&, ||, !
+         //  x && y   True if both x and y are true
+         //  x || y   True if either x or y is true
+         //  !x       True if x ix not true
+
+        //  var x=15
+        //  var y=20
+        //  var z="15"   //String
+         var flag=true
+        //  if(x>=10 || y>25){
+        //      alert(true)
+        //  }else{
+        //      alert(false)
+        //  }
+        // if(!flag){
+        //     alert("hiiiii")
+        // }else{
+        //     alert("helllooooo")
+        // }
+
+// Comparison Operators
+
+         var x=15
+         var y=20
+         var z="15"
+        // document.write(x == z)  //Equal
+        // document.write("<br>")
+        // document.write(x===z)   //Identical
+        // document.write("<br>")
+        // document.write(x<y)
+        // document.write("<br>")
+        // document.write(x!=y)
+        // document.write("<br>")
+        // document.write(x<=y)
+
+// Events in JS
+        function sayHello(){
+            document.write("Hellloooooooo")
+        }
+        document.getElementById("mybtn").onclick=sayHello
+        </script>
+        
+    </body>
+</html>
